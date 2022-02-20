@@ -38,13 +38,13 @@ runtime = process.uptime()
                             surface : 1,
                             message: `${teks}\n${run}`, //Kasih namalu
                             orderTitle: `${teks}\n${run}`,
-                            thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(), //Gambarnye
+                            thumbnail: await (await fetch(`https://telegra.ph/file/9251abae575793f82bb6c.jpg`)).buffer(), //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
                         }
                       }
 					//m.reply(teks)
-					let jawab = `*Bot aktif selama*\n${run}\n\n_©ᴋɪɴɢ ᴏғ ʙᴇᴀʀ_`.trim()
+					let jawab = `*Bot aktif selama*\n${run}\n\n_©FuadBot_`.trim()
 conn.reply(m.chat, jawab, footer, {quoted: ftrol})
 }
 handler.help = ['runtime']
