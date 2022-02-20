@@ -7,7 +7,7 @@ async function handler(m) {
                     + 'ORG:Owner Fuad-Bot;\n' // the organization of the contact
                     + 'TEL;type=CELL;type=VOICE;waid=6285867185837:+6285867185837\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-                conn.sendMessage(m.chat, { contacts: { displayName: 'King Of Bear', contacts: [{ vcard }] } }, { quoted: m })
+                conn.sendMessage(m.chat, { contacts: { displayName: 'Fuad Official', contacts: [{ vcard }] } }, { quoted: m })
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
